@@ -1,8 +1,8 @@
 # Name of your application. Used to uniquely configure containers.
-service: booking_app_landing
+service: schedulze_ui
 
 # Name of the container image.
-image: jwaiswa/booking_app_landing
+image: jwaiswa/schedulze_ui
 
 # Deploy to these servers.
 servers:
@@ -20,7 +20,9 @@ servers:
 proxy:
   ssl: true
   host: schedulze.com
-  app_port: 5173
+  app_port: 80
+  healthcheck:
+    path: /
 
 # Credentials for your image host.
 registry:
