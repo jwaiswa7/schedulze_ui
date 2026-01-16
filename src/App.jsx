@@ -3,17 +3,17 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+      <header className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
         <div className="text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Simplify Your
             <span className="text-slate-600"> Booking Management</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-3xl mx-auto">
-            The all-in-one platform for hotels, resorts, and hospitality businesses to manage bookings, guests, and operations effortlessly.
+            All-in-one platform for hotels, resorts, and hospitality businesses.
           </p>
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
-            Streamline your workflow, reduce manual errors, and focus on delivering exceptional guest experiences.
+            Manage bookings effortlessly. Focus on what matters.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <a 
@@ -24,17 +24,17 @@ function App() {
             </a>
           </div>
         </div>
-      </div>
+      </header>
 
       {/* Problem Statement Section */}
-      <div className="bg-white py-16">
+      <section className="bg-white py-16" aria-label="Common booking management problems">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Tired of Managing Bookings Manually?
+              Tired of Managing Hotel Bookings Manually?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Running a hotel, resort, or hospitality business shouldn't mean drowning in spreadsheets, missed bookings, or double-booked rooms. You need a system that works as hard as you do.
+              Running a hotel, resort, or hospitality business shouldn't mean drowning in spreadsheets, missed reservations, or double-booked rooms. Traditional booking management methods are inefficient. You need a modern hotel reservation system that works as hard as you do.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
@@ -55,56 +55,56 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Solution Section */}
-      <div className="bg-gradient-to-br from-slate-50 to-slate-100 py-16">
+      <section className="bg-gradient-to-br from-slate-50 to-slate-100 py-16" aria-label="Booking management solution features">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Your Complete Booking Management Solution
+              Complete Hotel Booking Management Software
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to manage bookings, guests, and operations in one intuitive platform.
+              Everything you need to manage hotel reservations, guest check-ins, room bookings, and hospitality operations in one intuitive booking management platform. Perfect for hotels, resorts, spas, restaurants, and vacation rentals.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">📅</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Centralized Booking Calendar</h3>
-              <p className="text-gray-600">View all bookings at a glance with an intuitive calendar interface. Track arrivals, departures, and occupancy in real-time.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Centralized Hotel Booking Calendar</h3>
+              <p className="text-gray-600">View all hotel reservations and room bookings at a glance with an intuitive calendar interface. Track guest arrivals, departures, and room occupancy in real-time. Perfect for hotel management and resort operations.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">👥</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Guest Management</h3>
-              <p className="text-gray-600">Maintain comprehensive guest profiles, booking history, and preferences. Quick check-in and check-out processes.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Hotel Guest Management System</h3>
+              <p className="text-gray-600">Maintain comprehensive guest profiles, reservation history, and preferences. Streamline hotel check-in and check-out processes. Manage guest data for hotels, resorts, and vacation rentals.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🏨</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Multi-Department Support</h3>
-              <p className="text-gray-600">Manage rooms, restaurants, spa services, and activities all from one platform. Perfect for hotels and resorts.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Multi-Department Booking Management</h3>
+              <p className="text-gray-600">Manage hotel rooms, restaurant reservations, spa bookings, and activity scheduling all from one integrated platform. Perfect for full-service hotels, resorts, and hospitality complexes.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Real-Time Summaries</h3>
-              <p className="text-gray-600">Get instant insights on arrivals, departures, new bookings, occupied rooms, and cancellations.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Real-Time Hotel Analytics & Reports</h3>
+              <p className="text-gray-600">Get instant insights on guest arrivals, departures, new reservations, room occupancy rates, and booking cancellations. Make data-driven decisions for your hotel or resort.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🔒</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Prevent Double Bookings</h3>
-              <p className="text-gray-600">Automated overlap detection ensures you never double-book a room or service. Peace of mind built-in.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Prevent Double Bookings Automatically</h3>
+              <p className="text-gray-600">Automated overlap detection ensures you never double-book hotel rooms, spa appointments, or restaurant tables. Protect your revenue and reputation with built-in booking conflict prevention.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">👨‍💼</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Team Collaboration</h3>
-              <p className="text-gray-600">Manage staff access and roles. Multiple team members can work together seamlessly.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Hotel Staff Collaboration Tools</h3>
+              <p className="text-gray-600">Manage staff access, user roles, and permissions. Enable multiple hotel team members to manage bookings, check-ins, and guest services seamlessly across departments.</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Benefits Section */}
-      <div className="bg-white py-16">
+      <section className="bg-white py-16" aria-label="Benefits of using Schedulze booking platform">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -187,18 +187,18 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* CTA Section */}
-      <div className="bg-slate-400 py-16">
+      <section className="bg-slate-400 py-16" aria-label="Get started with Schedulze">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 items-center">
             <div className="md:col-span-2 text-center md:text-left">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Ready to Transform Your Booking Management?
+                Ready to Transform Your Hotel Booking Management?
               </h2>
               <p className="text-xl text-slate-300 mb-8">
-                Join hotels and hospitality businesses that have streamlined their operations and improved their guest experience.
+                Join hotels, resorts, and hospitality businesses worldwide that have streamlined their reservation management, improved guest satisfaction, and increased revenue with Schedulze booking software.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a 
@@ -237,7 +237,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   )
 }
