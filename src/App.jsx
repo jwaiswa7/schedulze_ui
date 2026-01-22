@@ -1,18 +1,23 @@
-
 import HeroSection from './components/HeroSection'
 import ProblemStatementSection from './components/ProblemStatementSection'
-import SolutionSection from './components/SolutionSection'
-import BenefitsSection from './components/BenefitsSection'
+import KeyFeaturesSection from './components/KeyFeaturesSection'
+import HowItWorksSection from './components/HowItWorksSection'
+import WhoItsForSection from './components/WhoItsForSection'
+import TrustSection from './components/TrustSection'
 import CTASection from './components/CTASection'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <div className="min-h-screen bg-white">
       <HeroSection />
       <ProblemStatementSection />
-      <SolutionSection />
-      <BenefitsSection />
+      <KeyFeaturesSection />
+      <HowItWorksSection />
+      <WhoItsForSection />
+      <TrustSection />
       <CTASection />
+      <Footer />
     </div>
   )
 }
