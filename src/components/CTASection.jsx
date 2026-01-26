@@ -14,7 +14,7 @@ function CTASection() {
               Get Started
             </a>
             <a 
-              href="#demo" 
+              href="https://calendly.com/joshua-waiswa-schedulze/30min" target="_blank"
               className="inline-block bg-blue-700 text-white border-2 border-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-800 transition-colors"
             >
               Request a Demo

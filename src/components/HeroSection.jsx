@@ -16,10 +16,10 @@ function HeroSection() {
             Start Managing Bookings
           </a>
           <a 
-            href="#demo" 
+            href="https://calendly.com/joshua-waiswa-schedulze/30min" target="_blank"
             className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors"
           >
-            View Demo
+          Request a Demo
           </a>
         </div>
       </div>
