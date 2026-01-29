@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import Footer from '../components/Footer'
 
 function TermsAndConditions() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Terms and Conditions | Schedulze"
+        description="Terms and conditions for using Schedulze. Acceptance, acceptable use, liability, and contact information."
+        path="/terms-and-conditions"
+      />
       <header className="border-b border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <Link
@@ -16,12 +22,13 @@ function TermsAndConditions() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-          Terms and Conditions
-        </h1>
-        <p className="text-gray-600 mb-12">Last updated: January 29, 2026</p>
+        <article>
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+            Terms and Conditions
+          </h1>
+          <p className="text-gray-600 mb-12">Last updated: January 29, 2026</p>
 
-        <div className="space-y-10 text-gray-600">
+          <div className="space-y-10 text-gray-600">
           <section>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Acceptance
@@ -133,7 +140,8 @@ function TermsAndConditions() {
               </li>
             </ul>
           </section>
-        </div>
+          </div>
+        </article>
       </main>
 
       <Footer />

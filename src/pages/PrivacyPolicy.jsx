@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import Footer from '../components/Footer'
 
 function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Privacy Policy | Schedulze"
+        description="Schedulze privacy policy. How we collect, use, and protect your personal data when you use our booking and billing service."
+        path="/privacy-policy"
+      />
       <header className="border-b border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <Link
@@ -16,12 +22,13 @@ function PrivacyPolicy() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-          Privacy Policy
-        </h1>
-        <p className="text-gray-600 mb-12">Last updated: January 29, 2026</p>
+        <article>
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+            Privacy Policy
+          </h1>
+          <p className="text-gray-600 mb-12">Last updated: January 29, 2026</p>
 
-        <div className="prose-content space-y-10 text-gray-600">
+          <div className="prose-content space-y-10 text-gray-600">
           <p className="text-lg">
             This Privacy Policy describes Our policies and procedures on the collection,
             use and disclosure of Your information when You use the Service and tells You
@@ -232,7 +239,8 @@ function PrivacyPolicy() {
               </li>
             </ul>
           </section>
-        </div>
+          </div>
+        </article>
       </main>
 
       <Footer />
