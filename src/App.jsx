@@ -8,6 +8,7 @@ import TrustSection from './components/TrustSection'
 import CTASection from './components/CTASection'
 import Footer from './components/Footer'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsAndConditions from './pages/TermsAndConditions'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         }
       />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
     </Routes>
   )
 }
